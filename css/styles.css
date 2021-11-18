@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 2718px;
+    display: flex;
+    justify-content: center;
+    background-color: #EBEBEB;
+
+}
+
+.main{
+    height: 100vh;
+    width: 1002px;  
+}
+
+.top{
+    height: 340px;
+    width: 1002px;
+    background-color:  #C7DDEA;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.hello{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: black;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    position: relative;
+    left: 200px;
+}
+
+.baby{
+    position: relative;
+    max-height: 298px;
+    top: 42px;
+    right: -75px;
+}
+
+.contact-nav{
+    width: 1002px;
+    height: 68px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li, ul, a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px;
+    font-size: 15px;
+    color: #0000007e;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.active, a:hover{
+    color: black;
+    opacity: 100;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.message{
+    height: 544px;
+    width: 1002px;
+    background-color: #A9A19E;
+    display: flex;
+}
+
+.mind{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: 45px;
+    color: white;
+    position: relative;
+    width: 314px;
+    top: 105px;
+    left: 100px;
+}
+.info-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 200px;
+}
+
+.h4-input{
+    font-family: Fira Sans;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.mail-input{
+    width: 334px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.msg-input{
+    width: 334px;
+    height: 166px;
+    padding: 20px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+::placeholder{
+    color: #000000;
+    font-family:  'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    position: absolute;
+}
+
+
+
+.send-btn{
+    background-color: #ffffff;
+    position: relative;
+    left: 205px;
+    border-radius: 100px;
+    border-style: none;
+    height: 39px;
+    width: 131px;
+    margin-top: 30px;
+    box-shadow: 0px 2px 0px #00000117;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    
+}
+
+.visit{
+    height: 407px;
+    width: 1002px;
+    background-image: url(/images/maps.png);
+}
+.orange-card{
+    position: relative;
+    width: 323px;
+    height: 206px;
+    left: 85px;
+    top: 45px;
+    background-color: #fab131;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.orange-h1{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.orange-h5{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.pin{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.footer{
+    height: 340px;
+    width: 1002px;
+    background-color: #777574;
+    
+}
